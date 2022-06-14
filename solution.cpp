@@ -1,20 +1,13 @@
 #include "solution.h"
 #include "util.h"
-#include <unordered_set>
-#include <numeric>
-#include <iterator>
-#include <unordered_map>
-#include <deque>
 #include <string>
-#include <sstream>
-#include <algorithm>
-#include <stack>
-#include <functional>
+
 using namespace sol125;
 using namespace std;
 
 /*takeaways
   - Brute force
+  - time complexity O(n^2)
   - everyone takes turns being the center
     and count how many different palindromes
     we can generate from there
